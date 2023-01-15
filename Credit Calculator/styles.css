@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.all{
+    text-align: center;
+    margin: 3rem auto;
+    border: 1px solid hsl(0deg, 0%, 98%);
+    background-color: hsl(0deg, 0%, 98%);
+    border-radius: 20px;
+    width: 50%;
+  
+}
+.all h1{
+    font-size: 60px;
+    color: #3d5926;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.all label{
+    
+    font-size: 20px;
+    color: #8ebc65;
+}
+.all input{
+   
+    margin-bottom: 15px;
+    width: 250px;
+    padding: 5px;
+}
+.all select{
+    margin-bottom: 15px;
+    width: 250px;
+    padding: 5px;
+  
+}
+.all button{
+    background-color: #3d5926;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+    width: 150px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.all p{
+    font-size: 20px;
+    color: #8ebc65;
+    margin-bottom: 20px;
+}

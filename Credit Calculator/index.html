@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Calculator</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="all">
+        <h1>Credit Calculator</h1>
+
+        <div>
+            <label for="amount">Amount of credit <br> <br>
+                <input type="text" id="amount">
+            </label> <br>
+
+        </div>
+        <div>
+            <label for="percent">Percent degree <br> <br>
+                <input type="text" id="percent">
+            </label> <br>
+        </div>
+
+        <div>
+            <label for="date">Date of credit <br> <br>
+                <select name="date" id="date">
+                    <option value="def"></option>
+                    <option value="3">3</option>
+                    <option value="6">6</option>
+                    <option value="9">9</option>
+                    <option value="12">12</option>
+                    <option value="18">18</option>
+                </select>
+            </label>
+        </div>
+
+        <button id="btn" onclick="Calculate()" >Calculate</button>
+         <p>Amount of money:<span id="total"></span></p>
+         <p>Payment of month:<span id="payment"></span></p>
+
+<script src="./script.js"></script>
+    </div>
+</body>
+
+</html>
